@@ -22,8 +22,11 @@ public class RDAccount extends Account{
 		} else if (noOfMonth >= 21) {
 			rateOfInterest = 8.75;
 		}
+		if (ageOfACHolder >= 65) rateOfInterest += 0.5;
 		
+		interest = amount * rateOfInterest / 100;
 		
+		return interest;	
 	}
 
 	public double getInterestRate() {
