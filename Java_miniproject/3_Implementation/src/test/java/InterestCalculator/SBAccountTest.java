@@ -1,8 +1,6 @@
 package InterestCalculator;
 import static org.junit.Assert.*;
-
 import org.junit.Test;
-
 public class SBAccountTest {
 
 	SBAccount sbAccount = new SBAccount();
@@ -24,5 +22,4 @@ public class SBAccountTest {
 		sbAccount.setAmount(10000.0);
 		assertEquals(400.0, sbAccount.calculateInterest(), 0.0);
 	}
-
 }
