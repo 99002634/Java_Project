@@ -5,21 +5,24 @@ import Exception.InvalidAge;
 import Exception.InvalidAmount;
 import Exception.InvalidNoOfDays;
 
-public class InterestCalculator {
-	public static void main(String[] args) {
+public class InterestCalculator 
+{
+	public static void main(String[] args) 
+	{
 		Scanner scan = new Scanner(System.in);
 		int choice = 0;
 		
 		do {
-			System.out.print("\n1. Interest Calculator – SB: ");
-			System.out.print("\n2. Interest Calculator – FD: ");
-			System.out.print("\n3. Interest Calculator – RD: ");
+			System.out.print("\n1. Interest Calculator â€“ SB: ");
+			System.out.print("\n2. Interest Calculator â€“ FD: ");
+			System.out.print("\n3. Interest Calculator â€“ RD: ");
 			System.out.print("\n4. Exit");
 			System.out.print("\nEnter your option (1..4): ");
 			
 			choice  = scan.hasNextInt() ? scan.nextInt() : 0;
 			
-			switch (choice) {
+			switch (choice) 
+			{
 			case 1:
 				SBAccount sbAccount = new SBAccount();
 				System.out.print("\nEnter the Average amount in your account: ");
@@ -116,5 +119,4 @@ public class InterestCalculator {
 		} while (choice != 4);
 		scan.close();
 	}
-
 }
