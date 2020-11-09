@@ -1,8 +1,6 @@
 package InterestCalculator;
 import static org.junit.Assert.*;
-
 import org.junit.Test;
-
 public class RDAccountTest {
 
 	RDAccount rdAccount = new RDAccount();
@@ -38,5 +36,4 @@ public class RDAccountTest {
 		rdAccount.setAgeOfACHolder(65);
 		assertEquals(800.0, rdAccount.calculateInterest(), 0.0);
 	}
-
 }
