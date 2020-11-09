@@ -69,5 +69,4 @@ public class RDAccount extends Account{
 	public void setAgeOfACHolder(int ageOfACHolder) {
 		this.ageOfACHolder = ageOfACHolder;
 	}
-
 }
