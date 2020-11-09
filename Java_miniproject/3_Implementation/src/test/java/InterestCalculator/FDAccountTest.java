@@ -1,6 +1,5 @@
 package InterestCalculator;
 import static org.junit.Assert.*;
-
 import org.junit.Test;
 
 public class FDAccountTest {
@@ -43,5 +42,4 @@ public class FDAccountTest {
 		fdAccount.setAgeOfACHolder(30);
 		assertEquals(750.0, fdAccount.calculateInterest(), 0.0);
 	}
-
 }
