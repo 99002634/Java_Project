@@ -33,8 +33,9 @@ public class FDAccount extends Account{
 			
 			if (ageOfACHolder >= 65)
 				rateOfInterest += 0.5;
-		} 
-		else {
+			} 
+			else 
+			{
 			if (noOfDays >= 7 && noOfDays <= 14) 
 			{
 				rateOfInterest = 6.5;
@@ -92,5 +93,4 @@ public class FDAccount extends Account{
 	public void setAmount(double amount) {
 		this.amount = amount;
 	}
-
 }
