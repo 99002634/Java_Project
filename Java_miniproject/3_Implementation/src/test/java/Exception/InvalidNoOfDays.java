@@ -1,6 +1,7 @@
 package Exception;
 
-public class InvalidNoOfDays extends Exception{
+public class InvalidNoOfDays extends Exception
+{
 	public InvalidNoOfDays()
 	{
 		super();
