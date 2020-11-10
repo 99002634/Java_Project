@@ -15,5 +15,8 @@
 |L1_H3|	Savings account depends on the amount deposited	|The amount deposited in the account |	Interest is obtained according to the amount deposited|
 |L2_L1_H3|	Savings account depends on the amount and time	|The amount deposited in the account depends on time	|Interest is obtained according to time|
 
-#JUnit
+# JUnit
+
+<img width="226" alt="JUnitTestCases" src="https://user-images.githubusercontent.com/71537287/98706008-543fad00-23a4-11eb-901d-243ee61cb4f9.PNG">
+
 
