@@ -3,3 +3,7 @@
 **Use Case Diagram**
 
 ![Structural](https://user-images.githubusercontent.com/71482239/98683751-6bbe6c00-238b-11eb-9062-a2ff8b4c6055.png)
+
+# Structural Diagrams
+
+**Object Diagram**
